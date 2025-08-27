@@ -1,0 +1,18 @@
+h1{
+    background-color: blue;
+    color: aqua;
+}
+img{
+    width: 10%;
+    border-radius: 50%;
+}
+body{
+    margin: 0px;
+}
+#miParrafo{
+    background-color: brown;
+}
+
+.parrafo{
+    border-style: solid;
+}
