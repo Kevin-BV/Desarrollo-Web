@@ -2,10 +2,7 @@ h1{
     background-color: blue;
     color: aqua;
 }
-img{
-    width: 10%;
-    border-radius: 50%;
-}
+
 body{
     margin: 0px;
 }
@@ -15,4 +12,14 @@ body{
 
 .parrafo{
     border-style: solid;
+}
+
+#imagen01{
+    width: 10%;
+    border: 0%;
+
+}
+
+#formacion{
+    max-width: 50%;
 }
