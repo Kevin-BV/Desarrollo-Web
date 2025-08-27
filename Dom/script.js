@@ -1,6 +1,8 @@
 titulo = document.querySelector("h3")
 titulo.innerHTML = "Este contenido fue agregado con JavaScript"
 
+var nombreSpan = document.querySelector("p .nombre")
+nombreSpan.innerHTML = "John"
 
 
 

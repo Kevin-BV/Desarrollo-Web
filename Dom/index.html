@@ -8,6 +8,17 @@
 </head>
 <body>
     <h1 id="titulo">Bienvenido DOM</h1>
+    <select id="selector" onchange="
+    element = document.querySelector('#selector')
+    alert(element.value)
+    body = document.querySelector('body')
+    body.style.backgroundColor = element.value
+">
+<option value="black">Negro</option>
+<option value="red">Rojo</option>
+<option value="blue">Azul</option>
+</select>
+    <p>Hola, mi nombre es <span class="nombre">___</span>, mucho gusto</p>
     <h2 class="borde">Miércoles 27 Agosto</h2>
     <h3></h3>
     <p class="borde"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum sequi nisi quo atque nobis, suscipit illum repellat tenetur quia architecto aut provident voluptate vitae. Voluptates neque sapiente natus ea.</p>
