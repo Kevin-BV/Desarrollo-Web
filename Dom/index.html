@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1 id="titulo">Bienvenido DOM</h1>
+    <p id="p-1"> 0 </p>
+    <button onclick="
+        parrafo = document.querySelector('#p-1')
+        cuenta = Number(parrafo.innerHTML)
+        cuenta = cuenta + 1
+        parrafo.innerHTML = cuenta
+    "> Incrementar </button>
     <select id="selector" onchange="
     element = document.querySelector('#selector')
     alert(element.value)
