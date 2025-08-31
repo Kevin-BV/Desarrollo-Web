@@ -1,22 +1,26 @@
 
-
-body{
-    margin: 0px;
-}
-#miParrafo{
-    background-color: brown;
+body {
+    background: rgb(255, 255, 255);
 }
 
-.parrafo{
-    border-style: solid;
+table {
+    width: 50%;
+    
+    margin-bottom: 20%;
+    text-align: justify;
 }
 
-#imagen01{
-    width: 10%;
-    border: 0%;
-
+.rows {
+    border: 3px solid rgb(0, 0, 0);
+    padding: auto;
+    width: 50%;
 }
 
-#formacion{
-    max-width: 50%;
+.cs {
+    border: 3px solid rgb(0, 0, 0);
+    padding: auto;
+}
+
+#imagen {
+    width: 100%;
 }
