@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(242, 226, 190);
+}
+h1{
+    color: rgb(255, 218, 126);
+    
+}
+.lp-hero{
+  background: url("Assets/Hamburguesa1.png") center/cover no-repeat;
+  height: 25vh;               
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tablaProductos .producto{
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+#tablaProductos .producto{
+    width: 400px;  
+    height: auto;
+    border-radius: 8px;
+}
+#tablaProductos .detalles{
+    padding-left: 30px;
+    vertical-align: middle;
+    font-size: 40px; 
+}
+#Footerp{
+    padding: auto;
+    text-align: center;
+}
