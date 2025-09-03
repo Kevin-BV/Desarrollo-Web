@@ -1,5 +1,6 @@
 body{
     background-color: rgb(242, 226, 190);
+   
 }
 h1{
     color: rgb(255, 218, 126);
@@ -13,19 +14,21 @@ h1{
   align-items: center;
 }
 #tablaProductos .producto{
-    width: 120px;
+    width: 80%;
     height: auto;
     border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    
 }
-#tablaProductos .producto{
-    width: 400px;  
-    height: auto;
-    border-radius: 8px;
-}
+
 #tablaProductos .detalles{
-    padding-left: 30px;
     vertical-align: middle;
-    font-size: 40px; 
+    font-size: 40px;
+    width: 50%;
+    padding: 2em;
+    text-align: center;
+     
 }
 #Footerp{
     padding: auto;
